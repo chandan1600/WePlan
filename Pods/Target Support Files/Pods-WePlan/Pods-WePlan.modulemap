@@ -1,0 +1,6 @@
+framework module Pods_WePlan {
+  umbrella header "Pods-WePlan-umbrella.h"
+
+  export *
+  module * { export * }
+}

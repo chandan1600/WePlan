@@ -9,21 +9,47 @@
 /* Begin PBXBuildFile section */
 		174688B527240172003E1D3F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174688B427240172003E1D3F /* AppDelegate.swift */; };
 		174688B727240172003E1D3F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174688B627240172003E1D3F /* SceneDelegate.swift */; };
-		174688B927240172003E1D3F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174688B827240172003E1D3F /* ViewController.swift */; };
 		174688BC27240172003E1D3F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 174688BA27240172003E1D3F /* Main.storyboard */; };
 		174688BE27240173003E1D3F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 174688BD27240173003E1D3F /* Assets.xcassets */; };
 		174688C127240173003E1D3F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 174688BF27240173003E1D3F /* LaunchScreen.storyboard */; };
+		174688C927240B54003E1D3F /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174688C827240B54003E1D3F /* LoginViewController.swift */; };
+		174688CB27240B66003E1D3F /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174688CA27240B66003E1D3F /* SignUpViewController.swift */; };
+		174688CD2724260A003E1D3F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 174688CC2724260A003E1D3F /* GoogleService-Info.plist */; };
+		175DAA6927253753004B5976 /* ActivityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 175DAA6827253753004B5976 /* ActivityViewController.swift */; };
+		175DAA6D27254A37004B5976 /* TransportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 175DAA6C27254A37004B5976 /* TransportViewController.swift */; };
+		175DAA6F27254B3A004B5976 /* ItineraryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 175DAA6E27254B3A004B5976 /* ItineraryViewController.swift */; };
+		175DAA7127254B61004B5976 /* BookingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 175DAA7027254B61004B5976 /* BookingViewController.swift */; };
+		175DAA7327255004004B5976 /* AIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 175DAA7227255004004B5976 /* AIViewController.swift */; };
+		1799D9CD27256C6200A21FEA /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1799D9CC27256C6200A21FEA /* HomeViewController.swift */; };
+		1799D9D127258B1300A21FEA /* FoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1799D9D027258B1300A21FEA /* FoodViewController.swift */; };
+		1799D9D52725AC4500A21FEA /* confirmedBookingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1799D9D42725AC4500A21FEA /* confirmedBookingViewController.swift */; };
+		1799D9D72725AFB700A21FEA /* ItineraryOneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1799D9D62725AFB700A21FEA /* ItineraryOneViewController.swift */; };
+		AA0F46BCF5E1CE2D81E1CA67 /* Pods_WePlan.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC99158B28E641033DA35635 /* Pods_WePlan.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1530C5122EE643015E0C7FF3 /* Pods-WePlan.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WePlan.debug.xcconfig"; path = "Target Support Files/Pods-WePlan/Pods-WePlan.debug.xcconfig"; sourceTree = "<group>"; };
 		174688B127240172003E1D3F /* WePlan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WePlan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		174688B427240172003E1D3F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		174688B627240172003E1D3F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		174688B827240172003E1D3F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		174688BB27240172003E1D3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		174688BD27240173003E1D3F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		174688C027240173003E1D3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		174688C227240173003E1D3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		174688C827240B54003E1D3F /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		174688CA27240B66003E1D3F /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		174688CC2724260A003E1D3F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		175DAA6827253753004B5976 /* ActivityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityViewController.swift; sourceTree = "<group>"; };
+		175DAA6C27254A37004B5976 /* TransportViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransportViewController.swift; sourceTree = "<group>"; };
+		175DAA6E27254B3A004B5976 /* ItineraryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItineraryViewController.swift; sourceTree = "<group>"; };
+		175DAA7027254B61004B5976 /* BookingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingViewController.swift; sourceTree = "<group>"; };
+		175DAA7227255004004B5976 /* AIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIViewController.swift; sourceTree = "<group>"; };
+		1799D9CC27256C6200A21FEA /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		1799D9D027258B1300A21FEA /* FoodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FoodViewController.swift; path = ../FoodViewController.swift; sourceTree = "<group>"; };
+		1799D9D42725AC4500A21FEA /* confirmedBookingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = confirmedBookingViewController.swift; sourceTree = "<group>"; };
+		1799D9D62725AFB700A21FEA /* ItineraryOneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItineraryOneViewController.swift; sourceTree = "<group>"; };
+		67B118FC75A4EB29B280C108 /* Pods-WePlan.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WePlan.release.xcconfig"; path = "Target Support Files/Pods-WePlan/Pods-WePlan.release.xcconfig"; sourceTree = "<group>"; };
+		AC99158B28E641033DA35635 /* Pods_WePlan.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WePlan.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA0F46BCF5E1CE2D81E1CA67 /* Pods_WePlan.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +69,8 @@
 			children = (
 				174688B327240172003E1D3F /* WePlan */,
 				174688B227240172003E1D3F /* Products */,
+				7E11757C99118FD4A11E799C /* Pods */,
+				83E33ACD22FB0EAE06495CBF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +85,67 @@
 		174688B327240172003E1D3F /* WePlan */ = {
 			isa = PBXGroup;
 			children = (
+				174688CC2724260A003E1D3F /* GoogleService-Info.plist */,
 				174688B427240172003E1D3F /* AppDelegate.swift */,
 				174688B627240172003E1D3F /* SceneDelegate.swift */,
-				174688B827240172003E1D3F /* ViewController.swift */,
+				175DAA752725503B004B5976 /* Log In */,
+				175DAA742725501E004B5976 /* Main Page */,
+				1799D9D82725B52A00A21FEA /* Booking & Itinerary */,
 				174688BA27240172003E1D3F /* Main.storyboard */,
 				174688BD27240173003E1D3F /* Assets.xcassets */,
 				174688BF27240173003E1D3F /* LaunchScreen.storyboard */,
 				174688C227240173003E1D3F /* Info.plist */,
 			);
 			path = WePlan;
+			sourceTree = "<group>";
+		};
+		175DAA742725501E004B5976 /* Main Page */ = {
+			isa = PBXGroup;
+			children = (
+				175DAA6827253753004B5976 /* ActivityViewController.swift */,
+				175DAA6C27254A37004B5976 /* TransportViewController.swift */,
+				175DAA7227255004004B5976 /* AIViewController.swift */,
+				1799D9CC27256C6200A21FEA /* HomeViewController.swift */,
+				1799D9D027258B1300A21FEA /* FoodViewController.swift */,
+			);
+			path = "Main Page";
+			sourceTree = "<group>";
+		};
+		175DAA752725503B004B5976 /* Log In */ = {
+			isa = PBXGroup;
+			children = (
+				174688CA27240B66003E1D3F /* SignUpViewController.swift */,
+				174688C827240B54003E1D3F /* LoginViewController.swift */,
+			);
+			path = "Log In";
+			sourceTree = "<group>";
+		};
+		1799D9D82725B52A00A21FEA /* Booking & Itinerary */ = {
+			isa = PBXGroup;
+			children = (
+				175DAA7027254B61004B5976 /* BookingViewController.swift */,
+				175DAA6E27254B3A004B5976 /* ItineraryViewController.swift */,
+				1799D9D42725AC4500A21FEA /* confirmedBookingViewController.swift */,
+				1799D9D62725AFB700A21FEA /* ItineraryOneViewController.swift */,
+			);
+			path = "Booking & Itinerary";
+			sourceTree = "<group>";
+		};
+		7E11757C99118FD4A11E799C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1530C5122EE643015E0C7FF3 /* Pods-WePlan.debug.xcconfig */,
+				67B118FC75A4EB29B280C108 /* Pods-WePlan.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		83E33ACD22FB0EAE06495CBF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AC99158B28E641033DA35635 /* Pods_WePlan.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +155,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 174688C527240173003E1D3F /* Build configuration list for PBXNativeTarget "WePlan" */;
 			buildPhases = (
+				87835DB2EB71E7CE01B63B9F /* [CP] Check Pods Manifest.lock */,
 				174688AD27240172003E1D3F /* Sources */,
 				174688AE27240172003E1D3F /* Frameworks */,
 				174688AF27240172003E1D3F /* Resources */,
+				45B661E075BBAE9F2AF3A52B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,6 +209,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				174688C127240173003E1D3F /* LaunchScreen.storyboard in Resources */,
+				174688CD2724260A003E1D3F /* GoogleService-Info.plist in Resources */,
 				174688BE27240173003E1D3F /* Assets.xcassets in Resources */,
 				174688BC27240172003E1D3F /* Main.storyboard in Resources */,
 			);
@@ -133,14 +217,66 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		45B661E075BBAE9F2AF3A52B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WePlan/Pods-WePlan-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WePlan/Pods-WePlan-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WePlan/Pods-WePlan-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		87835DB2EB71E7CE01B63B9F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WePlan-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		174688AD27240172003E1D3F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				174688B927240172003E1D3F /* ViewController.swift in Sources */,
+				175DAA6D27254A37004B5976 /* TransportViewController.swift in Sources */,
+				175DAA7127254B61004B5976 /* BookingViewController.swift in Sources */,
+				174688C927240B54003E1D3F /* LoginViewController.swift in Sources */,
 				174688B527240172003E1D3F /* AppDelegate.swift in Sources */,
+				175DAA7327255004004B5976 /* AIViewController.swift in Sources */,
 				174688B727240172003E1D3F /* SceneDelegate.swift in Sources */,
+				175DAA6927253753004B5976 /* ActivityViewController.swift in Sources */,
+				1799D9CD27256C6200A21FEA /* HomeViewController.swift in Sources */,
+				1799D9D72725AFB700A21FEA /* ItineraryOneViewController.swift in Sources */,
+				175DAA6F27254B3A004B5976 /* ItineraryViewController.swift in Sources */,
+				1799D9D127258B1300A21FEA /* FoodViewController.swift in Sources */,
+				1799D9D52725AC4500A21FEA /* confirmedBookingViewController.swift in Sources */,
+				174688CB27240B66003E1D3F /* SignUpViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,11 +420,13 @@
 		};
 		174688C627240173003E1D3F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1530C5122EE643015E0C7FF3 /* Pods-WePlan.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N5TGW8GSPU;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = WePlan/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -311,11 +449,13 @@
 		};
 		174688C727240173003E1D3F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67B118FC75A4EB29B280C108 /* Pods-WePlan.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N5TGW8GSPU;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = WePlan/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
